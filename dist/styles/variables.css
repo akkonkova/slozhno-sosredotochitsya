@@ -8,14 +8,10 @@
   --heading-color-with-bg: #000028;
   --main-cover-image: url(../images/cover-image-dark.png);
   --bg-accent-color: #ff0070;
-  --decorative-accent-color: #ff0070;
+  --decor-accent-color: #ff0070;
   --rec-decoration-color: #ff0070;
   --default-border-color: #ff0070;
   --button-hover-color: rgba(255 0 112 / 0.4);
   --main-header-font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --main-header-font-size-desktop: clamp(
-    7.5rem,
-    0.5625rem + 14.4531vw,
-    9.8125rem
-  );
+  --main-header-font-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }

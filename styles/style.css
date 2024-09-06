@@ -16,11 +16,8 @@
 
 .header {
   display: grid;
-  grid-template-rows: auto -webkit-max-content auto;
   grid-template-rows: auto max-content auto;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: start;
+  align-items: start;
   padding-inline: 1.25rem;
   padding-block: 1.25rem;
   min-block-size: 100vh;
@@ -32,12 +29,8 @@
 
 .header__decorative-icon {
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 0.62rem;
   color: var(--decorative-accent-color);
   font-family: "IBM Plex Mono";
@@ -54,37 +47,24 @@
   content: "";
   display: block;
   border-radius: 50%;
-  -webkit-padding-start: 10px;
-          padding-inline-start: 10px;
-  -webkit-box-shadow: 0 0 4px 2px var(--rec-decoration-color);
-          box-shadow: 0 0 4px 2px var(--rec-decoration-color);
+  padding-inline-start: 10px;
+  box-shadow: 0 0 4px 2px var(--rec-decoration-color);
   background-color: var(--bg-accent-color);
   inline-size: 9px;
   block-size: 9px;
 }
 
 .header__theme-menu-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  justify-content: center;
+  align-items: flex-start;
   gap: 10px;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
+  align-self: flex-start;
 }
 
 .header__theme-menu-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   border: none;
   padding-inline: 13px;
   outline: 1px solid transparent;
@@ -116,10 +96,8 @@
 }
 
 .header__title {
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-  -webkit-margin-start: -1.25rem;
-          margin-inline-start: -1.25rem;
+  align-self: flex-start;
+  margin-inline-start: -1.25rem;
   color: var(--accent-heading-color);
   font-family: inherit;
   font-weight: 700;
@@ -129,12 +107,9 @@
 }
 
 .header__subtitle {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   justify-self: end;
-  -ms-flex-item-align: center;
-      align-self: center;
+  align-self: center;
   max-inline-size: 50%;
 }
 

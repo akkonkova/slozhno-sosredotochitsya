@@ -1,1 +1,5 @@
 node_modules
+dist
+.editorconfig
+.prettierrc
+.stylelint.config.js

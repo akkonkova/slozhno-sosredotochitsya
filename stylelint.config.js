@@ -22,7 +22,7 @@ module.exports = {
     'declaration-block-single-line-max-declarations': 1,
     'no-unknown-animations': true,
     'selector-type-case': 'lower',
-    'rule-empty-line-before': 'always',
+    // 'rule-empty-line-before': 'always',
     'at-rule-empty-line-before': 'always',
     'selector-class-pattern': null,
     'font-family-name-quotes': 'always-where-recommended',

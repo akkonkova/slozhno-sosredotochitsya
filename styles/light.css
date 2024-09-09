@@ -8,6 +8,7 @@
   --main-cover-image: url(../images/cover-image-light.png);
   --bg-accent-color: #ff8dcb;
   --decor-accent-color: #353430;
+  --rec-decoration-color: transparent;
   --default-border-color: #353430;
   --button-hover-color: rgba(50 49 45 / 0.4);
 }
@@ -17,10 +18,9 @@
 }
 
 @media (prefers-color-scheme: light) {
-
   :root {
     --accent-color: #353430;
-    --text-shadow-color: #ff0070;
+    --text-shadow-color: #ff8dcb;
     --accent-heading-color: #ffc2e6;
     --main-text-color: #353430;
     --main-heading-color: #353430;
@@ -28,6 +28,7 @@
     --main-cover-image: url(../images/cover-image-light.png);
     --bg-accent-color: #ff8dcb;
     --decor-accent-color: #353430;
+    --rec-decoration-color: transparent;
     --default-border-color: #353430;
     --button-hover-color: rgba(50 49 45 / 0.4);
   }

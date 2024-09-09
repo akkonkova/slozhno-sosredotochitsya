@@ -1,4 +1,4 @@
-.page.theme_light {
+:root .theme_light {
   --accent-color: #353430;
   --text-shadow-color: #ff8dcb;
   --accent-heading-color: #ffc2e6;
@@ -31,5 +31,11 @@
     --rec-decoration-color: transparent;
     --default-border-color: #353430;
     --button-hover-color: rgba(50 49 45 / 0.4);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .page.theme_auto .header__decorative-icon {
+    display: none;
   }
 }

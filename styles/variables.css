@@ -14,4 +14,10 @@
   --button-hover-color: rgba(255 0 112 / 0.4);
   --main-title-font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --main-title-font-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --default-padding-desktop: 1.25rem;
+  --default-padding-small: 0.625rem;
+  --default-margin-desktop: 1.25rem;
+  --default-margin-small: 0.625rem;
+  --inset-desktop: 1.25rem;
+  --inset-mobile: 0.625rem;
 }

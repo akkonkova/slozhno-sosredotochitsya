@@ -7,6 +7,7 @@
   font-family: 'IBM Plex mono', sans-serif;
   font-weight: 400;
   font-size: 18px;
+  min-height: 100vh;
 }
 
 /* стили для шапки сайта, секция header */

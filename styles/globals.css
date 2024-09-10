@@ -42,9 +42,9 @@ a {
 }
 
 .page {
-  background-color: red;
+  background-color: #000028;
   background-image: var(--main-cover-image);
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;

@@ -42,7 +42,7 @@ a {
 }
 
 .page {
-  background-color: #000028;
+  background-color: var(--bg-color);
   background-image: var(--main-cover-image);
   background-repeat: no-repeat;
   background-position: center;

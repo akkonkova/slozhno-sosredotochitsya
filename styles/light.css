@@ -5,6 +5,7 @@
   --main-text-color: #353430;
   --main-heading-color: #353430;
   --heading-color-with-bg: #353430;
+  --bg-color: #fff1f7;
   --main-cover-image: url(../images/cover-image-light.png);
   --bg-accent-color: #ff8dcb;
   --decor-accent-color: #353430;
@@ -25,6 +26,7 @@
     --main-text-color: #353430;
     --main-heading-color: #353430;
     --heading-color-with-bg: #353430;
+    --bg-color: #fff1f7;
     --main-cover-image: url(../images/cover-image-light.png);
     --bg-accent-color: #ff8dcb;
     --decor-accent-color: #353430;

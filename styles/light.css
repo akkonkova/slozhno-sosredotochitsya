@@ -33,7 +33,11 @@
     --button-hover-color: rgba(50 49 45 / 0.4);
   }
 
-  .page.theme_auto .header__decorative-icon {
+  .theme_light .header__decorative-icon {
+    display: none;
+  }
+
+  .theme_auto .header__decorative-icon {
     display: none;
   }
 }

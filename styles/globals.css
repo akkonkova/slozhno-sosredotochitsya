@@ -40,3 +40,11 @@ a {
   font-size: inherit;
   line-height: inherit;
 }
+
+.page {
+  background-image: var(--main-cover-image);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}

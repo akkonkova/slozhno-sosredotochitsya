@@ -191,6 +191,7 @@
   justify-self: end;
   align-self: center;
   max-inline-size: 50%;
+  white-space: pre-line;
 }
 
 .title-decor {
@@ -399,7 +400,7 @@ p:not(:last-child) {
   }
 }
 
-/* секция footer */
+/* стили для секции footer */
 .footer {
   display: grid;
   justify-items: center;

@@ -9,6 +9,7 @@
   --main-cover-image: url(../images/cover-image-light.png);
   --bg-accent-color: #ff8dcb;
   --decor-accent-color: #353430;
+  --rec-accent-color: transparent;
   --rec-decoration-color: transparent;
   --default-border-color: #353430;
   --button-hover-color: rgba(50 49 45 / 0.4);
@@ -30,6 +31,7 @@
     --main-cover-image: url(../images/cover-image-light.png);
     --bg-accent-color: #ff8dcb;
     --decor-accent-color: #353430;
+    --rec-accent-color: transparent;
     --rec-decoration-color: transparent;
     --default-border-color: #353430;
     --button-hover-color: rgba(50 49 45 / 0.4);

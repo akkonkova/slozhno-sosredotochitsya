@@ -1,5 +1,8 @@
+/* Специально делаю "дубли" цветов в разных переменных, тк семантически корректно названные переменные должны однозначно говорить о том,
+зачем нужна сущность/переменная, чтобы избежать ошибок и было сразу понятно, где и что менять */
+
 .page.theme_light {
-  --accent-color: #353430;
+  --menu-accent-color: #353430;
   --text-shadow-color: #ff8dcb;
   --accent-heading-color: #ffc2e6;
   --main-text-color: #353430;
@@ -13,15 +16,12 @@
   --rec-decoration-color: transparent;
   --default-border-color: #353430;
   --button-hover-color: rgba(50 49 45 / 0.4);
-}
-
-.page.theme_light .header__decorative-icon {
-  display: none;
+  --dec-icon-display-state: none;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --accent-color: #353430;
+    --menu-accent-color: #353430;
     --text-shadow-color: #ff8dcb;
     --accent-heading-color: #ffc2e6;
     --main-text-color: #353430;
@@ -35,13 +35,6 @@
     --rec-decoration-color: transparent;
     --default-border-color: #353430;
     --button-hover-color: rgba(50 49 45 / 0.4);
-  }
-
-  .theme_light .header__decorative-icon {
-    display: none;
-  }
-
-  .theme_auto .header__decorative-icon {
-    display: none;
+    --dec-icon-display-state: none;
   }
 }

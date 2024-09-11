@@ -22,7 +22,8 @@ p {
   margin: 0;
 }
 
-ul {
+ul,
+li {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -39,13 +40,4 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-}
-
-.page {
-  background-color: var(--bg-color);
-  background-image: var(--main-cover-image);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
 }

@@ -1,5 +1,8 @@
+/* Делаю "дубли" цветов в разных переменных, тк семантически корректно названные переменные должны однозначно говорить о том,
+зачем нужна сущность/переменная, чтобы избежать ошибок и было сразу понятно, где и что именно менять */
+
 .page.theme_dark {
-  --accent-color: #ff0070;
+  --menu-accent-color: #ff0070;
   --text-shadow-color: #ff0070;
   --accent-heading-color: #db00ff;
   --main-text-color: #f1b2ce;
@@ -13,11 +16,12 @@
   --rec-decoration-color: #ff0070;
   --default-border-color: #ff0070;
   --button-hover-color: rgba(255 0 112 / 0.4);
+  --dec-icon-display-state: flex;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --accent-color: #ff0070;
+    --menu-accent-color: #ff0070;
     --text-shadow-color: #ff0070;
     --accent-heading-color: #db00ff;
     --main-text-color: #f1b2ce;
@@ -31,5 +35,6 @@
     --rec-decoration-color: #ff0070;
     --default-border-color: #ff0070;
     --button-hover-color: rgba(255 0 112 / 0.4);
+    --dec-icon-display-state: flex;
   }
 }
